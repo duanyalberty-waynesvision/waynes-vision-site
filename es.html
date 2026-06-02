@@ -67,6 +67,38 @@
       min-width: 0;
     }
 
+    .brand-mark {
+      width: 42px;
+      height: 42px;
+      border-radius: 14px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      font-weight: 900;
+      letter-spacing: -0.08em;
+      color: #102033;
+      background: linear-gradient(135deg, #f7d98b, #d6a94f);
+      border: 1px solid rgba(255,255,255,.22);
+      box-shadow: 0 14px 34px rgba(214,169,79,.22);
+    }
+
+    .brand-copy {
+      display: grid;
+      gap: 2px;
+      line-height: 1.05;
+    }
+
+    .brand-copy strong {
+      white-space: nowrap;
+    }
+
+    .brand-copy span {
+      white-space: nowrap;
+      opacity: .72;
+      font-size: .82rem;
+    }
+
     .brand img {
       width: 44px;
       height: 44px;
@@ -446,14 +478,14 @@
       .hero-logo { max-width: 100%; max-height: 260px; }
     }
   </style>
-  <meta name="description" content="A modern showcase for Unified Vision and Waynes Homelab: visibility, monitoring, automation, recovery and future smart-home control.">
+  <meta name="description" content="Una presentación moderna de Unified Vision y Waynes Homelab: visibilidad, monitoreo, automatización, recuperación y futuro control inteligente del hogar.">
   <meta property="og:title" content="Wayne's Vision - Unified Vision">
-  <meta property="og:description" content="A modern home lab operator platform built for visibility, automation and future smart-home control.">
+  <meta property="og:description" content="Una plataforma moderna de operación para homelab, creada para visibilidad, automatización y futuro control inteligente del hogar.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="assets/waynes-vision-hero.png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Wayne's Vision - Unified Vision">
-  <meta name="twitter:description" content="A modern home lab operator platform built for visibility, automation and future smart-home control.">
+  <meta name="twitter:description" content="Una plataforma moderna de operación para homelab, creada para visibilidad, automatización y futuro control inteligente del hogar.">
   <meta name="twitter:image" content="assets/waynes-vision-hero.png">
 </head>
 
@@ -490,7 +522,7 @@
           <img src="assets/waynes-vision-hero.png" class="hero-logo" alt="Wayne's Vision - The Man With a Vision" onerror="this.style.display='none'">
           <div>
             <div class="eyebrow">Wayne’s Vision</div>
-            <div class="built">Built with Vision</div>
+            <div class="built">Creado con visión</div>
           </div>
         </div>
 
@@ -502,8 +534,8 @@
         </p>
 
         <div class="actions">
-          <a class="btn primary" href="#vision">Explore the vision</a>
-          <a class="btn" href="#platform">See the platform</a>
+          <a class="btn primary" href="#vision">Explorar la visión</a>
+          <a class="btn" href="#platform">Ver la plataforma</a>
         </div>
       </div>
     </header>
@@ -511,11 +543,11 @@
     <section id="vision">
       <div class="section-head">
         <div class="kicker">Unified Vision</div>
-        <h2>Not just a home lab. A living operator platform.</h2>
+        <h2>No es solo un homelab. Es una plataforma operativa viva.</h2>
         <p>
-          Unified Vision is the management philosophy behind Waynes Homelab.
-          The goal is to bring visibility, automation, recovery and future controls
-          into one calm, beautiful and understandable system.
+          Unified Vision es la filosofía de gestión detrás de Waynes Homelab.
+          El objetivo es reunir visibilidad, automatización, recuperación y futuros controles
+          en un sistema claro, elegante y fácil de entender.
         </p>
       </div>
 
@@ -561,11 +593,11 @@
 
     <section id="platform">
       <div class="section-head">
-        <div class="kicker">The platform</div>
-        <h2>Each part has a role.</h2>
+        <div class="kicker">La plataforma</div>
+        <h2>Cada parte cumple un rol.</h2>
         <p>
-          Like a human body, the platform has senses, memory, eyes, nerves,
-          warning signals and a face for the operator.
+          Como un cuerpo humano, la plataforma tiene sentidos, memoria, ojos, nervios,
+          señales de alerta y una interfaz para el operador.
         </p>
       </div>
 
@@ -602,14 +634,14 @@
 
         <article class="card span-4">
           <div class="icon">🔁</div>
-          <h3>Nervous system</h3>
-          <p>Node-RED connects the pieces and exposes simple APIs for the future dashboard.</p>
+          <h3>Sistema nervioso</h3>
+          <p>Node-RED conecta las piezas y expone APIs simples para el futuro panel de control.</p>
         </article>
 
         <article class="card span-4">
           <div class="icon">🏠</div>
-          <h3>Smart home layer</h3>
-          <p>Home Assistant will provide home state, smart devices and future safe controls.</p>
+          <h3>Capa de hogar inteligente</h3>
+          <p>Home Assistant aportará estado del hogar, dispositivos inteligentes y futuros controles seguros.</p>
         </article>
 
         <article class="card span-4">
@@ -638,8 +670,8 @@
           <small>Devices and sensors collect what is happening.</small>
         </div>
         <div class="flow-step">
-          <b>2. Collect</b>
-          <small>Scripts and APIs bring data into the platform.</small>
+          <b>2. Recopilar</b>
+          <small>Los scripts y las APIs llevan los datos hacia la plataforma.</small>
         </div>
         <div class="flow-step">
           <b>3. Remember</b>
@@ -660,7 +692,7 @@
       <div class="grid">
         <div class="card span-6">
           <div class="quote">
-            Observe first. Centralize second. Visualize third. Control later. Automate last.
+            Observar primero. Centralizar después. Visualizar tercero. Controlar más tarde. Automatizar al final.
             <small>Principio de diseño de Unified Vision</small>
           </div>
         </div>
@@ -669,8 +701,8 @@
           <div class="icon">🚀</div>
           <h3>What comes next</h3>
           <p>
-            The platform can grow with a public digital book, a polished iPad interface,
-            Home Assistant entity states, safe controls, multilingual documentation and future smart-home automation.
+            La plataforma puede crecer con un libro digital público, una interfaz pulida para iPad,
+            estados de entidades de Home Assistant, controles seguros, documentación multilingüe y futura automatización del hogar inteligente.
           </p>
           <div class="pill-row">
             <span class="pill">iPad UI</span>
@@ -684,7 +716,7 @@
     </section>
 
         <footer>
-      <div>Wayne's Vision - Unified Vision - Waynes Homelab - Built with Vision</div>
+      <div>Wayne's Vision - Unified Vision - Waynes Homelab - Creado con visión</div>
       <div style="margin-top:10px;">
         <a href="https://duanyalberty-waynesvision.github.io/waynes-vision-site/">Live website</a>
       </div>
@@ -692,19 +724,5 @@
   </main>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
