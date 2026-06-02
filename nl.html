@@ -1,10 +1,10 @@
 ﻿<!doctype html>
-<html lang="en">
+<html lang="nl">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#050816">
-  <title>Wayne’s Vision · Unified Vision</title>
+  <title>Wayne’s Visie · Unified Visie</title>
 
   <style>
     :root {
@@ -98,6 +98,12 @@
       display: flex;
       gap: 8px;
       flex-wrap: wrap;
+    }
+
+    .lang-switch a.active {
+      background: linear-gradient(135deg, rgba(214,169,79,.95), rgba(243,210,139,.78));
+      color: #111827;
+      border-color: rgba(243,210,139,.65);
     }
 
     .lang-switch a {
@@ -420,13 +426,13 @@
       .hero-logo { max-width: 100%; max-height: 260px; }
     }
   </style>
-  <meta name="description" content="A modern showcase for Unified Vision and Waynes Homelab: visibility, monitoring, automation, recovery and future smart-home control.">
-  <meta property="og:title" content="Wayne's Vision - Unified Vision">
+  <meta name="description" content="A modern showcase for Unified Visie and Waynes Homelab: visibility, monitoring, automation, recovery and future smart-home control.">
+  <meta property="og:title" content="Wayne's Visie - Unified Visie">
   <meta property="og:description" content="A modern home lab operator platform built for visibility, automation and future smart-home control.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="assets/waynes-vision-hero.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Wayne's Vision - Unified Vision">
+  <meta name="twitter:title" content="Wayne's Visie - Unified Visie">
   <meta name="twitter:description" content="A modern home lab operator platform built for visibility, automation and future smart-home control.">
   <meta name="twitter:image" content="assets/waynes-vision-hero.png">
 </head>
@@ -437,22 +443,22 @@
       <a href="#top" class="brand">
         <div class="mark">WV</div>
         <div class="brand-text">
-          <strong>Wayne’s Vision</strong>
-          <span>Unified Vision · Homelab</span>
+          <strong>Wayne’s Visie</strong>
+          <span>Unified Visie · Homelab</span>
         </div>
       </a>
 
       <div class="lang-switch">
         <a href="index.html">EN</a>
-        <a href="nl.html">NL</a>
+        <a href="nl.html" class="active">NL</a>
         <a href="es.html">ES</a>
       </div>
 
       <div class="nav-links">
-        <a href="#vision">Vision</a>
+        <a href="#vision">Visie</a>
         <a href="#platform">Platform</a>
-        <a href="#flow">How it works</a>
-        <a href="#future">Future</a>
+        <a href="#flow">Hoe het werkt</a>
+        <a href="#future">Toekomst</a>
       </div>
     </div>
   </nav>
@@ -461,14 +467,14 @@
     <header class="hero">
       <div class="hero-card">
         <div class="logo-row">
-          <img src="assets/waynes-vision-hero.png" class="hero-logo" alt="Wayne's Vision - The Man With a Vision" onerror="this.style.display='none'">
+          <img src="assets/waynes-vision-hero.png" class="hero-logo" alt="Wayne's Visie - The Man With a Visie" onerror="this.style.display='none'">
           <div>
-            <div class="eyebrow">Wayne’s Vision</div>
-            <div class="built">Built with Vision</div>
+            <div class="eyebrow">Wayne’s Visie</div>
+            <div class="built">Built with Visie</div>
           </div>
         </div>
 
-        <h1><span class="gold">Unified Vision</span><br>for a smarter home lab.</h1>
+        <h1><span class="gold">Unified Visie</span><br>for a smarter home lab.</h1>
 
         <p class="lead">
           A modern home lab operator platform designed to make infrastructure, monitoring,
@@ -476,18 +482,18 @@
         </p>
 
         <div class="actions">
-          <a class="btn primary" href="#vision">Explore the vision</a>
-          <a class="btn" href="#platform">See the platform</a>
+          <a class="btn primary" href="#vision">Ontdek de visie</a>
+          <a class="btn" href="#platform">Bekijk het platform</a>
         </div>
       </div>
     </header>
 
     <section id="vision">
       <div class="section-head">
-        <div class="kicker">Unified Vision</div>
-        <h2>Not just a home lab. A living operator platform.</h2>
+        <div class="kicker">Unified Visie</div>
+        <h2>Niet zomaar een homelab. Een levend operator-platform.</h2>
         <p>
-          Unified Vision is the management philosophy behind Waynes Homelab.
+          Unified Visie is the management philosophy behind Waynes Homelab.
           The goal is to bring visibility, automation, recovery and future controls
           into one calm, beautiful and understandable system.
         </p>
@@ -496,7 +502,7 @@
       <div class="grid">
         <article class="card span-4">
           <div class="icon">👁️</div>
-          <h3>Visibility first</h3>
+          <h3>Eerst zichtbaarheid</h3>
           <p>
             The system starts by showing what is happening: energy, network, service health,
             alerts and smart-home readiness.
@@ -509,25 +515,25 @@
 
         <article class="card span-4">
           <div class="icon">🧠</div>
-          <h3>Understand before control</h3>
+          <h3>Begrijpen vóór bedienen</h3>
           <p>
-            Every part has a purpose. Data becomes insight before any automation or control is added.
+            Elk onderdeel heeft een doel. Data wordt eerst inzicht voordat automatisering of bediening wordt toegevoegd.
           </p>
           <div class="pill-row">
-            <span class="pill">Read-only first</span>
-            <span class="pill">Safe design</span>
+            <span class="pill">Eerst read-only</span>
+            <span class="pill">Veilig ontwerp</span>
           </div>
         </article>
 
         <article class="card span-4">
           <div class="icon">🛠️</div>
-          <h3>Built to evolve</h3>
+          <h3>Gebouwd om te groeien</h3>
           <p>
-            New tools can be added, replaced or improved because the system is organized in clear layers.
+            Nieuwe tools kunnen worden toegevoegd, vervangen of verbeterd omdat het systeem in duidelijke lagen is opgebouwd.
           </p>
           <div class="pill-row">
-            <span class="pill">Modular</span>
-            <span class="pill">Recoverable</span>
+            <span class="pill">Modulair</span>
+            <span class="pill">Herstelbaar</span>
           </div>
         </article>
       </div>
@@ -536,7 +542,7 @@
     <section id="platform">
       <div class="section-head">
         <div class="kicker">The platform</div>
-        <h2>Each part has a role.</h2>
+        <h2>Elk onderdeel heeft een rol.</h2>
         <p>
           Like a human body, the platform has senses, memory, eyes, nerves,
           warning signals and a face for the operator.
@@ -546,55 +552,55 @@
       <div class="grid">
         <article class="card span-4">
           <div class="icon">📡</div>
-          <h3>Senses</h3>
+          <h3>Zintuigen</h3>
           <p>Energy meters, smart plugs, network devices and services provide the raw signals.</p>
         </article>
 
         <article class="card span-4">
           <div class="icon">💾</div>
-          <h3>Memory</h3>
+          <h3>Geheugen</h3>
           <p>InfluxDB stores measurements over time, so the system can learn from history.</p>
         </article>
 
         <article class="card span-4">
           <div class="icon">📊</div>
-          <h3>Insight</h3>
+          <h3>Inzicht</h3>
           <p>Grafana turns data into trends, charts and analysis.</p>
         </article>
 
         <article class="card span-4">
           <div class="icon">🩺</div>
-          <h3>Health</h3>
+          <h3>Gezondheid</h3>
           <p>Uptime Kuma watches services and devices like an immune system.</p>
         </article>
 
         <article class="card span-4">
           <div class="icon">💡</div>
-          <h3>Signal</h3>
+          <h3>Signaal</h3>
           <p>Luxafor gives a physical green, yellow or red status at a glance.</p>
         </article>
 
         <article class="card span-4">
           <div class="icon">🔁</div>
-          <h3>Nervous system</h3>
+          <h3>Zenuwstelsel</h3>
           <p>Node-RED connects the pieces and exposes simple APIs for the future dashboard.</p>
         </article>
 
         <article class="card span-4">
           <div class="icon">🏠</div>
-          <h3>Smart home layer</h3>
+          <h3>Smart-home laag</h3>
           <p>Home Assistant will provide home state, smart devices and future safe controls.</p>
         </article>
 
         <article class="card span-4">
           <div class="icon">📱</div>
-          <h3>Operator face</h3>
+          <h3>Operator cockpit</h3>
           <p>The iPad dashboard and mobile cockpit turn the system into something easy to use.</p>
         </article>
 
         <article class="card span-4">
           <div class="icon">🧬</div>
-          <h3>DNA & recovery</h3>
+          <h3>DNA & herstel</h3>
           <p>GitHub and recovery kits preserve the system and make it safer to improve.</p>
         </article>
       </div>
@@ -602,29 +608,29 @@
 
     <section id="flow">
       <div class="section-head">
-        <div class="kicker">How it works</div>
-        <h2>From raw signal to calm control.</h2>
+        <div class="kicker">Hoe het werkt</div>
+        <h2>Van ruwe signalen naar rustige controle.</h2>
       </div>
 
       <div class="flow">
         <div class="flow-step">
-          <b>1. Observe</b>
+          <b>1. Observeren</b>
           <small>Devices and sensors collect what is happening.</small>
         </div>
         <div class="flow-step">
-          <b>2. Collect</b>
+          <b>2. Verzamelen</b>
           <small>Scripts and APIs bring data into the platform.</small>
         </div>
         <div class="flow-step">
-          <b>3. Remember</b>
+          <b>3. Onthouden</b>
           <small>InfluxDB stores the history.</small>
         </div>
         <div class="flow-step">
-          <b>4. Understand</b>
+          <b>4. Begrijpen</b>
           <small>Dashboards and status signals explain the system.</small>
         </div>
         <div class="flow-step">
-          <b>5. Improve</b>
+          <b>5. Verbeteren</b>
           <small>New layers can be added safely and deliberately.</small>
         </div>
       </div>
@@ -634,14 +640,14 @@
       <div class="grid">
         <div class="card span-6">
           <div class="quote">
-            Observe first. Centralize second. Visualize third. Control later. Automate last.
-            <small>Unified Vision design principle</small>
+            Observeren first. Centralize second. Visualize third. Control later. Automate last.
+            <small>Unified Visie design principle</small>
           </div>
         </div>
 
         <div class="card span-6">
           <div class="icon">🚀</div>
-          <h3>What comes next</h3>
+          <h3>Wat volgt later</h3>
           <p>
             The platform can grow with a public digital book, a polished iPad interface,
             Home Assistant entity states, safe controls, multilingual documentation and future smart-home automation.
@@ -651,14 +657,14 @@
             <span class="pill">Home Assistant</span>
             <span class="pill">EN-US</span>
             <span class="pill">ES-LATAM</span>
-            <span class="pill">Smart controls later</span>
+            <span class="pill">Slimme bediening later</span>
           </div>
         </div>
       </div>
     </section>
 
         <footer>
-      <div>Wayne's Vision - Unified Vision - Waynes Homelab - Built with Vision</div>
+      <div>Wayne's Visie - Unified Visie - Waynes Homelab - Built with Visie</div>
       <div style="margin-top:10px;">
         <a href="https://duanyalberty-waynesvision.github.io/waynes-vision-site/">Live website</a>
       </div>
@@ -666,6 +672,9 @@
   </main>
 </body>
 </html>
+
+
+
 
 
 
